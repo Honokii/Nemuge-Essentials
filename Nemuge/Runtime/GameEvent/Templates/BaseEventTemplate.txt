@@ -1,0 +1,13 @@
+using UnityEngine;
+using Nemuge.GameEvent;
+
+//Event
+//Set the menu name as you see fit.
+[CreateAssetMenu(fileName = "New#EVENTNAME#", menuName = "Nemuge/Game Events/#EVENTNAME#")]
+public class #EVENTNAME# : BaseGameEvent<#EVENTNAME#Args> { }
+
+//Arguments
+//Put parameters here if you want to pass that through the event
+public class #EVENTNAME#Args {
+
+}

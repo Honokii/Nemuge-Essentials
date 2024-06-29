@@ -1,0 +1,10 @@
+using System;
+using UnityEngine.Events;
+using Nemuge.GameEvent;
+
+//Listener
+public class #EVENTNAME#Listener : BaseGameEventListener<#EVENTNAME#Args, #EVENTNAME#, #EVENTNAME#Response> { }
+
+//Response
+[Serializable]
+public class #EVENTNAME#Response : UnityEvent<#EVENTNAME#Args> { }
