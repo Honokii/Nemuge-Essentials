@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System.IO;
 using UnityEditor;
 using UnityEngine;
@@ -67,3 +69,5 @@ namespace Nemuge.GameEvent {
             _baseGameEventTemplateTextAsset != null && _baseGameEventListenerTemplateTextAsset != null;
     }
 }
+
+#endif

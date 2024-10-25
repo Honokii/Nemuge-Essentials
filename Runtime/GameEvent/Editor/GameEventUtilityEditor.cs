@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using UnityEditor;
 using UnityEngine;
 
@@ -21,3 +23,5 @@ namespace Nemuge.GameEvent {
         }
     }
 }
+
+#endif
